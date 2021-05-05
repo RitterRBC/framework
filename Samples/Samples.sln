@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26906.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Neuro", "Neuro", "{BE29F5CB-80FB-4CF1-9135-800534B264D3}"
 EndProject
@@ -200,10 +200,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Text", "6. Text", "{516D72C1-3210-42B6-96F6-C9EB7070E6D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1. Linear", "Tutorials\2. Regression\2.1. Linear\2.1. Linear.csproj", "{B71CC045-A002-480D-87E9-50240DE11BD3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screen Capture (sample)", "Video\Screencast Capture\Sources\Screen Capture (sample).csproj", "{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workbench (sample)", "Statistics\Workbench (Distributions)\Sources\Workbench (sample).csproj", "{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -943,24 +939,6 @@ Global
 		{B71CC045-A002-480D-87E9-50240DE11BD3}.Release|x64.ActiveCfg = Release|x86
 		{B71CC045-A002-480D-87E9-50240DE11BD3}.Release|x86.ActiveCfg = Release|x86
 		{B71CC045-A002-480D-87E9-50240DE11BD3}.Release|x86.Build.0 = Release|x86
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Debug|x64.ActiveCfg = Debug|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Debug|x64.Build.0 = Debug|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Debug|x86.ActiveCfg = Debug|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Mono|x64.ActiveCfg = Release|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Mono|x86.ActiveCfg = Release|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Mono|x86.Build.0 = Release|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Release|x64.ActiveCfg = Release|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Release|x64.Build.0 = Release|x64
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1}.Release|x86.ActiveCfg = Release|x64
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Debug|x64.ActiveCfg = Debug|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Debug|x86.ActiveCfg = Debug|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Debug|x86.Build.0 = Debug|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Mono|x64.ActiveCfg = Release|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Mono|x86.ActiveCfg = Release|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Mono|x86.Build.0 = Release|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Release|x64.ActiveCfg = Release|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Release|x86.ActiveCfg = Release|x86
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1054,8 +1032,6 @@ Global
 		{9E868E49-DD70-4729-80B4-35467C962480} = {C7695817-57CC-484A-A0CF-29371453BDF6}
 		{516D72C1-3210-42B6-96F6-C9EB7070E6D1} = {C7695817-57CC-484A-A0CF-29371453BDF6}
 		{B71CC045-A002-480D-87E9-50240DE11BD3} = {3E741E85-2B2A-4F62-BDB8-8A5CED0AF3BA}
-		{0CA772AC-01A5-4CD5-B714-332F1FBDF4A1} = {004C9C77-4F14-4ED4-ACAE-781D6B860CA2}
-		{E7F12EB3-4B2D-472F-BD5D-F8FAC4DACEA1} = {473A7C08-02A2-473A-BEC6-891F035674FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8F350E8-CEB2-4B86-AC55-6367B244864F}
