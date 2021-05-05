@@ -73,7 +73,9 @@
   <PropertyGroup Condition="'$(TargetFramework)'=='net462'">
     <DefineConstants>NET46;NET462;$(DefineConstants)</DefineConstants>
   </PropertyGroup>
-
+	<PropertyGroup Condition="'$(TargetFramework)'=='net48'">
+		<DefineConstants>NET46;NET462;$(DefineConstants)</DefineConstants>
+	</PropertyGroup>
   <!-- Copy binaries, debug and all other generated files into the /Release or /Debug folders at the project's root -->
   <ItemGroup>
     <OutputFiles Include="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\**\*.*" />
