@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26906.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{D059B679-8B38-44FE-BEC6-8DFF9271CE59}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,6 +26,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\Release notes.txt = ..\Release notes.txt
 		..\Version.txt = ..\Version.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{3364C282-6629-4FC0-B7D3-E488576D7115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{98CCD2AC-1853-4413-A2C7-B7283715B0FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Non-LGPL", "Non-LGPL", "{54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linux", "Linux", "{DB1D2E4F-0D35-4321-996B-0DFB04609ACE}"
+	ProjectSection(SolutionItems) = preProject
+		..\accord.pc.in = ..\accord.pc.in
+		..\configure.ac = ..\configure.ac
+		..\Makefile.am = ..\Makefile.am
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{9221B048-1B8B-4492-90CB-DFECBBDCE14C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Controls.Audio", "Accord.Controls.Audio\Accord.Controls.Audio.csproj", "{E0B826AC-2A51-41EC-9F09-561CA14A82BB}"
 EndProject
@@ -64,8 +79,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Tests.Audio", "..\Unit Tests\Accord.Tests.Audio\Accord.Tests.Audio.csproj", "{19385AE1-57CA-4082-AD33-62480D02C1D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Controls.Vision", "Accord.Controls.Vision\Accord.Controls.Vision.csproj", "{6158E759-FE2B-4308-BA29-11C9E4A07812}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{3364C282-6629-4FC0-B7D3-E488576D7115}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Accord.Docs.SHFB", "Accord.Docs\Accord.Docs.SHFB\Accord.Docs.SHFB.shfbproj", "{048ACC63-3B91-4E14-B5A3-38E7898426FE}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -124,8 +137,6 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Accord.Docs.SHFB", "Accord.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.MachineLearning (GPL)", "Extras\Accord.MachineLearning.GPL\Accord.MachineLearning (GPL).csproj", "{6DD1A48C-D7A8-4B39-9C06-5A71FEEC70B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{98CCD2AC-1853-4413-A2C7-B7283715B0FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Setup", "..\Setup\Accord.Setup.csproj", "{F00F5E2D-D181-4FCC-8F2E-FDCB90F4721B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Namespaces", "Accord.Docs\Namespaces\Accord.Namespaces.csproj", "{4ED2AB06-991F-44FF-AC01-53394B222AF7}"
@@ -133,8 +144,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accord.Tests.Math.Cpp", "..\Unit Tests\Accord.Tests.Math.Cpp\Accord.Tests.Math.Cpp.vcxproj", "{161BD953-537D-4325-8A00-22475FC9088E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Math (Noncommercial)", "Extras\Accord.Math.Noncommercial\Accord.Math (Noncommercial).csproj", "{1A83AF16-1AC8-45E3-9E7E-FA7248C7CBCB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Non-LGPL", "Non-LGPL", "{54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.IO", "Accord.IO\Accord.IO.csproj", "{63184EBD-6B28-4066-AAEE-5B99431E31F4}"
 EndProject
@@ -166,7 +175,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Video.VFW", "Accord.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Video.Ximea", "Accord.Video.Ximea\Accord.Video.Ximea.csproj", "{AEDD6CFB-747B-4077-9288-9CD2A86090F1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Accord.Video.FFMPEG (GPL)", "Extras\Accord.Video.FFMPEG.GPL\Video.FFMPEG.vcxproj", "{FF31DD24-127D-4EB1-929C-F5738147E886}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Video.FFMPEG", "Extras\Accord.Video.FFMPEG.GPL\Video.FFMPEG.vcxproj", "{FF31DD24-127D-4EB1-929C-F5738147E886}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Accord.Tests.Math.FSharp", "..\Unit Tests\Accord.Tests.Math.FSharp\Accord.Tests.Math.FSharp.fsproj", "{79173770-18B0-4703-9E74-15F945B9EFDC}"
 EndProject
@@ -180,18 +189,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Tests.Video.FFMPEG",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Tests.Video", "..\Unit Tests\Accord.Tests.Video\Accord.Tests.Video.csproj", "{53D1CFE6-0639-46FF-8DD2-9D3BAC4971E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linux", "Linux", "{DB1D2E4F-0D35-4321-996B-0DFB04609ACE}"
-	ProjectSection(SolutionItems) = preProject
-		..\accord.pc.in = ..\accord.pc.in
-		..\configure.ac = ..\configure.ac
-		..\Makefile.am = ..\Makefile.am
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Tests.Imaging (Noncommercial)", "Extras\Accord.Tests.Imaging.Noncommercial\Accord.Tests.Imaging (Noncommercial).csproj", "{DD62D03D-D646-4ABD-9F19-22C347523C88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.DataSets", "Accord.DataSets\Accord.DataSets.csproj", "{F11A77C5-00B3-4921-ACF5-4728F6576EFD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{9221B048-1B8B-4492-90CB-DFECBBDCE14C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Text", "Accord.Text\Accord.Text.csproj", "{22627578-4022-453B-BA9A-76ED7F6F4E77}"
 EndProject
@@ -2994,6 +2994,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{DB1D2E4F-0D35-4321-996B-0DFB04609ACE} = {51B993EE-FE3F-44B0-8FA1-C0EEBF2670C8}
+		{9221B048-1B8B-4492-90CB-DFECBBDCE14C} = {54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}
 		{F454DBD6-2AB9-461D-9624-2249B921B6E6} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
 		{49679C95-28CE-4D35-8F38-3D67A511A3C1} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
 		{987E989A-E48B-428F-A392-0E7EEC9BCECD} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
@@ -3019,9 +3021,7 @@ Global
 		{44BB1934-5BFF-4A7B-8BF9-6F30043EB0D3} = {54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}
 		{E688E7EB-64B0-41DA-A1A0-924B75727A4B} = {9221B048-1B8B-4492-90CB-DFECBBDCE14C}
 		{53D1CFE6-0639-46FF-8DD2-9D3BAC4971E8} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
-		{DB1D2E4F-0D35-4321-996B-0DFB04609ACE} = {51B993EE-FE3F-44B0-8FA1-C0EEBF2670C8}
 		{DD62D03D-D646-4ABD-9F19-22C347523C88} = {9221B048-1B8B-4492-90CB-DFECBBDCE14C}
-		{9221B048-1B8B-4492-90CB-DFECBBDCE14C} = {54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}
 		{D501DE22-0988-4954-BF9E-D3816DF20A13} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
 		{EDC1164D-8E40-4D10-8B9E-5F1FCF85DDF0} = {D059B679-8B38-44FE-BEC6-8DFF9271CE59}
 		{0C4F32DF-1032-4C80-8B47-9C3316433A43} = {54EB52AC-52D0-4046-BDB6-276A5C7ED0F4}

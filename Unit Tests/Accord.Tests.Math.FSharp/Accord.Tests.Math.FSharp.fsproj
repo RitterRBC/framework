@@ -10,7 +10,7 @@
     <RootNamespace>Accord.Tests.Math.FSharp</RootNamespace>
     <AssemblyName>Accord.Tests.Math.FSharp</AssemblyName>
     <Name>Accord.Tests.Math.FSharp</Name>
-	<OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
+    <OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
     <TargetFrameworkProfile />
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -76,6 +76,9 @@
       <Project>{fd8101dd-c95d-42d6-ad44-ae01c25f2811}</Project>
       <Private>True</Private>
     </ProjectReference>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\..\Sources\packages\FSharp.Core.5.0.1\lib\netstandard2.0\FSharp.Core.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
